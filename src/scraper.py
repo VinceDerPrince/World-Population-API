@@ -1,13 +1,13 @@
 import bs4 as _bs4
-import requests as _requests
-from typing import List, Dict
-import time
+from typing import Dict
 from selenium import webdriver
+from selenium import webdriver
+
+
 
 url = "https://www.worldometers.info/world-population/"
 
 def _get_page(url: str) -> _bs4.BeautifulSoup:
-    # page = _requests.get(url)
     driver = webdriver.Safari()
     driver.get(url)
     page = driver.page_source
