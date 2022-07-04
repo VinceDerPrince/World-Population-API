@@ -3,9 +3,9 @@ An API to get the popular quotes from the site [worldometers.info](https://www.w
 
 * [Features](#Features)
 * [Setup](#Setup)
-   * [Virtual Environment](#Virtual Environment)
+   * [Virtual Environment](#Virtual_Environment)
    * [Uvicorn](#Uvicorn)
-* [Need to know](#Need to know)
+* [Need to know](#Need_to_know)
 ## Features
 You can get:
 * Get the live world population
