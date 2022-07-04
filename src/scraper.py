@@ -2,15 +2,19 @@ import bs4 as _bs4
 from typing import Dict
 from selenium import webdriver
 from selenium import webdriver
-
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
 
 
 url = "https://www.worldometers.info/world-population/"
 
 def _get_page(url: str) -> _bs4.BeautifulSoup:
-    driver = webdriver.Safari()
+    options = Options()
+    options.headless = True
+    driver = webdriver.Firefox(options=options, executable_path="/Users/vince/Downloads/geckodriver")
     driver.get(url)
     page = driver.page_source
+    driver.close()
     soup = _bs4.BeautifulSoup(page, "html.parser")
     return soup
 

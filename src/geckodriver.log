@@ -1,0 +1,85 @@
+1656966549604	geckodriver	INFO	Listening on 127.0.0.1:56365
+1656966549950	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56366" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofileBY6hpF"
+2022-07-04 22:29:16.067 firefox-bin[23311:3459526] Warning: Expected min height of view: (<NSButton: 0x126465000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:16.068 firefox-bin[23311:3459526] Warning: Expected min height of view: (<NSButton: 0x126808000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:16.068 firefox-bin[23311:3459526] Warning: Expected min height of view: (<NSButton: 0x126804000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:16.069 firefox-bin[23311:3459526] Warning: Expected min height of view: (<NSButton: 0x126804400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:16.069 firefox-bin[23311:3459526] Warning: Expected min height of view: (<NSButton: 0x126806400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:16.070 firefox-bin[23311:3459526] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x126808c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:16.070 firefox-bin[23311:3459526] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11dea5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:56366/devtools/browser/6d1d820e-2524-6f4b-aa82-2e655fc6949e
+1656966557836	Marionette	INFO	Listening on port 56381
+1656966557868	Marionette	WARN	TLS certificate errors will be ignored for this session
+1656966563935	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1656966582189	geckodriver	INFO	Listening on 127.0.0.1:56556
+1656966582717	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56557" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofileHMaeWn"
+2022-07-04 22:29:47.641 firefox-bin[23326:3460211] Warning: Expected min height of view: (<NSButton: 0x1287ba400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:47.642 firefox-bin[23326:3460211] Warning: Expected min height of view: (<NSButton: 0x128f7dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:47.642 firefox-bin[23326:3460211] Warning: Expected min height of view: (<NSButton: 0x128f7f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:47.643 firefox-bin[23326:3460211] Warning: Expected min height of view: (<NSButton: 0x128f7e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:47.643 firefox-bin[23326:3460211] Warning: Expected min height of view: (<NSButton: 0x128f7b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:47.644 firefox-bin[23326:3460211] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x128f7fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:29:47.644 firefox-bin[23326:3460211] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1287ba800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+DevTools listening on ws://localhost:56557/devtools/browser/d7161466-cb08-44c1-a405-7648b34533e2
+Exiting due to channel error.
+Exiting due to channel error.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656966630802	geckodriver	INFO	Listening on 127.0.0.1:56669
+1656966630825	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56670" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofilee5YntV"
+1656966631243	Marionette	INFO	Marionette enabled
+2022-07-04 22:30:31.888 firefox-bin[23401:3461616] Warning: Expected min height of view: (<NSButton: 0x1161efc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:30:31.888 firefox-bin[23401:3461616] Warning: Expected min height of view: (<NSButton: 0x117d56c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:30:31.889 firefox-bin[23401:3461616] Warning: Expected min height of view: (<NSButton: 0x117d56400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:30:31.890 firefox-bin[23401:3461616] Warning: Expected min height of view: (<NSButton: 0x117d5b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:30:31.890 firefox-bin[23401:3461616] Warning: Expected min height of view: (<NSButton: 0x117d5a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:30:31.890 firefox-bin[23401:3461616] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x117d59c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-04 22:30:31.891 firefox-bin[23401:3461616] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x114332c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofilee5YntV/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56670/devtools/browser/03211dc3-9c98-4f6d-ba97-4febe871dbd4
+1656966632967	Marionette	INFO	Listening on port 56686
+Read port: 56686
+1656966633032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656966637240	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1656966637308	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1656966638252	Marionette	INFO	Stopped listening on port 56686
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1656966753020	geckodriver	INFO	Listening on 127.0.0.1:56812
+1656966753043	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "56813" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofiledd3r08"
+*** You are running in headless mode.
+1656966753381	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofiledd3r08/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56813/devtools/browser/29ac0fbf-9f87-4a16-aba6-9ec4dca1a1be
+1656966754618	Marionette	INFO	Listening on port 56830
+Read port: 56830
+1656966754707	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656966756704	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1656966757715	Marionette	INFO	Stopped listening on port 56830
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
