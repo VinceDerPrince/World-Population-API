@@ -5,7 +5,7 @@ An API to get the popular quotes from the site [worldometers.info](https://www.w
 You can get:
 * Get the live world population
     * All:
-    ![world population](/images/world_population.gif)
+    ![world population](/images/get_world_population.gif)
     * Today:
     ![world population today](/images/world_population_today.gif)
     * This year:
