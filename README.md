@@ -1,5 +1,6 @@
 # World-Population-API
 An API to get the popular quotes from the site [worldometers.info](https://www.worldometers.info/world-population/).
+As of right know I'm using Seleniums webdriver to get the page's data, because it takes a second to load all the data which requests is too fast for. So I worked with Selenium to wait out this time, but if you have any way to make the code better/cleaner let me know!
 
 * [Features](#Features)
 * [Setup](#Setup)
