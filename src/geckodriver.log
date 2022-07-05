@@ -170,3 +170,49 @@ Read port: 55615
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1657012308195	geckodriver	INFO	Listening on 127.0.0.1:60758
+1657012308212	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "60759" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofile69VND8"
+*** You are running in headless mode.
+1657012308525	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofile69VND8/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:60759/devtools/browser/9738a095-c7d1-49e9-88aa-d2016f3b61b9
+1657012309683	Marionette	INFO	Listening on port 60783
+Read port: 60783
+1657012309785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657012312550	Marionette	INFO	Stopped listening on port 60783
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1657012327398	geckodriver	INFO	Listening on 127.0.0.1:60927
+1657012327925	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "60928" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofileX1u8Hk"
+*** You are running in headless mode.
+1657012328263	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofileX1u8Hk/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:60928/devtools/browser/438a23d8-f352-4a7c-afce-c2fe3cbf6928
+1657012329435	Marionette	INFO	Listening on port 60952
+Read port: 60952
+1657012329495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657012331895	Marionette	INFO	Stopped listening on port 60952
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1657012336430	geckodriver	INFO	Listening on 127.0.0.1:61047
+1657012336958	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "61048" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofileX2xRmF"
+*** You are running in headless mode.
+1657012337299	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/z6/6cq6jytx455dvn5v4ncxkcym0000gn/T/rust_mozprofileX2xRmF/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:61048/devtools/browser/2875dd22-913d-4283-8772-b59c4f462be9
+1657012338432	Marionette	INFO	Listening on port 61072
+Read port: 61072
+1657012338522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657012341319	Marionette	INFO	Stopped listening on port 61072
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

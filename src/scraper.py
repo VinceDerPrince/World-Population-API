@@ -83,15 +83,14 @@ def get_country(name: str) -> List:
         country_man.append(wacka)
 
     quotes = dict()
-    for page in range(1,235):
+    for page in range(1,236):
         if page not in quotes:
             quotes[page] = dict()
         for j in range(11):
             quotes[page][country_man[0][j]] = country_man[page][j]
     result = []
-    for i in range(1,len(quotes)):
+    for i in range(1,236):
+        print(f"{i}: ",quotes[i]["Country (or dependency)"].lower())
         if quotes[i]["Country (or dependency)"].lower() == name.lower():
             result.append(quotes[i])
     return result
-
-print(get_country("China"))
