@@ -11,7 +11,7 @@ url = "https://www.worldometers.info/world-population/"
 def _get_page(url: str) -> _bs4.BeautifulSoup:
     options = Options()
     options.headless = True
-    driver = webdriver.Firefox(options=options, executable_path="/Users/vince/Downloads/geckodriver")
+    driver = webdriver.Firefox(options=options, executable_path="../geckodriver")
     driver.get(url)
     page = driver.page_source
     driver.close()
