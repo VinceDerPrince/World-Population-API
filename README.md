@@ -1,15 +1,6 @@
 # World-Population-API
 An API to get the popular quotes from the site [worldometers.info](https://www.worldometers.info/world-population/).
 
----
-
-As of right know I'm using Seleniums webdriver to get the page's data, because it takes a second to load all the data which requests is too fast for. So I worked with Selenium to wait out this time, but if you have any way to make the code better/cleaner let me know!
-
-* [Features](#Features)
-* [Setup](#Setup)
-   * [Virtual Environment](#Virtual-Environment)
-   * [Uvicorn](#Uvicorn)
-* [Need to know](#Need-to-know)
 ## Features
 You can get:
 * Get the live world population
@@ -28,7 +19,7 @@ You can get:
     * ...today:
     ![todays births](/images/todays_deaths.gif)
     * ...this year:
-    ![this years deaths](/images/this_years_births.gif)
+    ![this years deaths](/images/this_years_deaths.gif)
 ## Setup
 ### Virtual Environment
 ```

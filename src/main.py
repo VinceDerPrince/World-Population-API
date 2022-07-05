@@ -35,3 +35,6 @@ async def get_years_dea1hs():
 async def get_years_pop_growth():
     return _scraper.get_population_growth_thisyear()
 
+@app.get("/get_country_data")
+async def get_country_data(name: str):
+    return _scraper.get_country(name)

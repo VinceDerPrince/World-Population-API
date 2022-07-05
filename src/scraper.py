@@ -1,9 +1,13 @@
+from typing import Dict, List
+
 import bs4 as _bs4
-from typing import Dict
+
 from selenium import webdriver
 from selenium import webdriver
-from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
+
+import re
+
 
 
 url = "https://www.worldometers.info/world-population/"
@@ -11,7 +15,7 @@ url = "https://www.worldometers.info/world-population/"
 def _get_page(url: str) -> _bs4.BeautifulSoup:
     options = Options()
     options.headless = True
-    driver = webdriver.Firefox(options=options, executable_path="../geckodriver")
+    driver = webdriver.Firefox(options=options, executable_path="/Users/vince/Downloads/geckodriver")
     driver.get(url)
     page = driver.page_source
     driver.close()
@@ -66,3 +70,28 @@ def get_population_growth_thisyear() -> Dict:
     population_growth_thisyear = [growth.text for growth in growths]
     output = {"population growth this year":int("".join(population_growth_thisyear[0].split(",")))}
     return output
+
+def get_country(name: str) -> List:
+    page = _get_page("https://www.worldometers.info/world-population/population-by-country/")
+    countries = page.find_all(role="row")
+    country_man = []
+    for country in countries:
+        wacka = []
+        for i in country:
+            if i.get_text() != " ":
+                wacka.append(i.get_text())
+        country_man.append(wacka)
+
+    quotes = dict()
+    for page in range(1,235):
+        if page not in quotes:
+            quotes[page] = dict()
+        for j in range(11):
+            quotes[page][country_man[0][j]] = country_man[page][j]
+    result = []
+    for i in range(1,len(quotes)):
+        if quotes[i]["Country (or dependency)"].lower() == name.lower():
+            result.append(quotes[i])
+    return result
+
+print(get_country("China"))
